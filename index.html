@@ -10,11 +10,22 @@
 </head>
 
 <body>
-    <div class="loginContainer">
-        <img src="./assets/Logo.png" alt="Logo" class="logo">
-        <div class="buttonContainer">
-            <button onclick="accessToMetamask()">CONNECT METAMASK</button> <br>
-            <p id="accountArea">Please conect your Wallet</p>
+    <nav class="navbar">
+        <p>Yellow Card</p>
+        <button onclick="accessToMetamask()" class="navbarButton" id="navbarLogin">LogIn</button>
+    </nav>
+    <div class="container">
+        <div class="homeText">
+            <h1>EL PRIMER PRODE BLOCKCHAIN</h1>
+            <h2>¡Adiviná los resultados de la Liga Argentina!</h2>
+            <h2>¡Desafiá a tus amigos!</h2>
+        </div>
+        <div class="loginContainer">
+            <img src="./assets/Logo.png" alt="Logo" class="logo">
+            <div class="buttonContainer">
+                <button id="loginButton" onclick="accessToMetamask()" class="loginButton">Connect Wallet</button>
+                <p id="accountArea">Please conect your Wallet</p>
+            </div>
         </div>
     </div>
 </body>
